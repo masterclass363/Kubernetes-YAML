@@ -9,6 +9,6 @@ spec:
     app: webapp-tomcat-db-mysql
   type: NodePort
   ports:
-  - nodePort: 31111
+  - nodePort: 31234
     port: 80
     targetPort: 80
