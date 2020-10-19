@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: Pod
-metadata: 
-  name: pod-dashboard
-  namespace: dev
-spec: 
-  containers: 
-    - name: c1
-      image: nginx
