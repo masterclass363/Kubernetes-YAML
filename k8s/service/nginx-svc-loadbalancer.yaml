@@ -9,6 +9,6 @@ spec:
     app: nginx-app-loadbalancer
   type: LoadBalancer
   ports:
-  - nodePort: 31234
+  - nodePort: 31112
     port: 80
     targetPort: 80
